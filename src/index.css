@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Karla', sans-serif;
+    background-image: url(./img/blobyellow.png);
+    background-image: url(./img/blobblue.png);
+}
+
+#backg {
+    background-image: url(./img/blobyellow.png), url(./img/blobblue.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: 800px 150px, 500px 400px;
+}
+    /* npx tailwindcss -i src\index.css -o ./dist\output.css --watch */
